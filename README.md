@@ -5,6 +5,7 @@ Change Data Capture Project using Google Cloud Platform
 This project is a simple implementation of Change Data Capture (CDC). I have used Google Cloud Platform (GCP) Compute Engine as the host for my docker containers. The project uses PostgreSQL as the source database using DBeaver. I have used Debezium to capture the changes in the PostgreSQL database and Kafka to stream the changes in the VM instance. Then I have used Apache Spark in DataBricks to read the data from GCS and perform some SQL operations on the data.
 
 ## Technologies Used
+![Alt text](images/Technologies_Used.png)
 
 ## How to run the project
 You can run the project in VM instance in GCP, AWS or any other cloud platform or in your local machine. I have used GCP Compute Engine to run the project. You can follow the steps below to run the project in GCP.
