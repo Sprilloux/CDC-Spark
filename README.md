@@ -45,7 +45,7 @@ You can run the project in VM instance in GCP, AWS or any other cloud platform o
     1. Set up DBeaver in your local machine and connect to the PostgreSQL database in the VM instance.
     2. Create a table using the following SQL command and run the command in DBeaver.
         ```sql	
-        -- DB adı postgres
+        -- DB name postgres
         CREATE TABLE IF NOT EXISTS customers (
             id SERIAL PRIMARY KEY,
             first_name VARCHAR(50),
